@@ -1,0 +1,127 @@
+body {
+    background-color: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    left: 1rem;
+}
+
+#mainDiv {
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-input{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#result{
+    background-color: #FFF;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 24px;
+    color: #F3F5FC;
+}
+
+#result > p{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-size: 1.3rem;
+    width: 90%;
+    height: 70%;
+
+}
+
+#input, #input:focus {
+    background-color: transparent;
+    padding: 10px;
+    width: 30rem;
+    height: 10rem;
+    resize: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #0A3871;
+    font-family: 'Inter';
+    margin-top: 1rem;
+    margin-left: 4rem;
+    border: 1px solid #FFF;
+}
+
+#btn{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-radius: 24px;
+}
+
+#btn-criptografar{
+    width: 45%;
+    height: 100%;
+    border-radius: 24px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    font-family: 'Inter';
+    font-size: 1rem;
+    background-color: #0A3871;
+    color: #FFF;
+    border: 1px solid #0A3871;
+}
+
+#btn-descriptografar{
+    width: 45%;
+    height: 67px;
+    border-radius: 24px;
+    margin-left: 2.5%;
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+#btn-copiar{
+    width: 300px;
+    height: 67px;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    position: relative;
+    bottom: 1.8rem;
+}
+
+#result > h2{
+    color: #343A40;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+#result > p {
+    color: #343A40;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+
